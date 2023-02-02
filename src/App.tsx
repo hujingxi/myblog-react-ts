@@ -1,7 +1,11 @@
 import React from 'react';
-import './App.css';
 import { Button, ConfigProvider } from 'antd';
+import { Route } from 'react-router-dom';
 
+import routes from "@/routes/index";
+
+
+import './App.css';
 function App() {
   return (
   <ConfigProvider
@@ -14,6 +18,15 @@ function App() {
     <div className='App'>
       <h1>首页</h1>
       <Button type="primary">Button</Button>
+      <>
+        {
+          routes.map(item => {
+            return (
+              <Route path={item.path} />
+            );
+          } )
+        }
+      </>
     </div>
   </ConfigProvider>
   );

@@ -10,6 +10,7 @@ export interface RouterConfigProps {
 
 const AccountPage = lazy(() => import("@/views/account/index"));
 
+// TODO 添加外部的路由参数类型
 const routes: RouterConfigProps[]= [
   {
     path: 'myblog/account',
