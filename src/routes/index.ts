@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy } from 'react';
 // import type { RouteComponentProps, RouteProps as DefaultRouteProps } from 'react-router-dom';
 // type ReactPageComponent = React.ComponentType<RouteComponentProps<any>> | React.ComponentType<unknown>;
 
