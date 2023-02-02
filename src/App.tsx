@@ -2,10 +2,11 @@ import React from 'react';
 import { Button, ConfigProvider } from 'antd';
 import { Route } from 'react-router-dom';
 
-import routes from "@/routes/index";
-
+import Account from './views/account';
+import routes from './routes';
 
 import './App.css';
+
 function App() {
   return (
   <ConfigProvider
@@ -27,6 +28,7 @@ function App() {
           } )
         }
       </>
+      <Account />
     </div>
   </ConfigProvider>
   );
