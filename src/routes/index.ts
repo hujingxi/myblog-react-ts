@@ -8,7 +8,7 @@ export interface RouterConfigProps {
   component?: any;
 }
 
-const AccountPage = lazy(() => import('@/views/account/index'));
+const AccountPage = lazy(() => import("@/views/account/index"));
 
 const routes: RouterConfigProps[]= [
   {
