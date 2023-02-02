@@ -1,14 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'antd';
+import { Button, ConfigProvider } from 'antd';
 
 function App() {
-  return (
-    <div className="App">
-      <Button type="primary">Button</Button>
-    </div>
-  );
+  <ConfigProvider
+    theme={{
+      token: {
+        colorPrimary: '#00b96b',
+      },
+    }}
+  >
+    <Button />
+  </ConfigProvider>
 }
 
 export default App;
