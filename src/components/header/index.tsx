@@ -6,4 +6,6 @@ const Desc: React.FC = () => {
   );
 }
 
+Desc.displayName = 'Desc';
+
 export default Desc;

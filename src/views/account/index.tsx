@@ -1,5 +1,4 @@
 import React from 'react';
-// import Desc from "@/components/header/index";
 import Desc from "../../components/header/index";
 
 const AccountPage: React.FC = () => {
@@ -7,5 +6,7 @@ const AccountPage: React.FC = () => {
     <Desc />
   );
 }
+
+AccountPage.displayName = 'AccountPage';
 
 export default AccountPage;

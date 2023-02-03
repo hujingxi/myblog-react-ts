@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10"
+    "@types/react-dom": "^18.0.10",
+    "react-router": "6.8.0"
   }
 }
