@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Desc from "../../components/header/index";
+import Desc from '../../components/header/index';
 // import { getAccount } from './api';
 
 const AccountPage: React.FC = () => {
