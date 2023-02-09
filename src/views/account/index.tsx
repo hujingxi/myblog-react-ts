@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Desc from '../../components/header/index';
+import Header from '../../components/header/index';
 // import { getAccount } from './api';
 
 const AccountPage: React.FC = () => {
@@ -15,11 +15,10 @@ const AccountPage: React.FC = () => {
 
   return (
     <>
-      <div>{msg}</div>
-      <Desc />
+      <Header />
     </>
   );
-}
+};
 
 AccountPage.displayName = 'AccountPage';
 
