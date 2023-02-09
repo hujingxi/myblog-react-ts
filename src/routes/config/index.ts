@@ -3,7 +3,7 @@ import  React, { lazy } from 'react';
 export interface RouterConfigProps {
   path: string;
   name?: string;
-  component: React.LazyExoticComponent<React.FC<{}>>;
+  component: React.LazyExoticComponent<React.FC<any>>;
   chhildren?: RouterConfigProps[];
 }
 
