@@ -1,4 +1,4 @@
-import  React, { lazy } from 'react';
+import React, { lazy } from 'react';
 
 export interface RouterConfigProps {
   path: string;
@@ -7,9 +7,9 @@ export interface RouterConfigProps {
   chhildren?: RouterConfigProps[];
 }
 
-const AccountPage = lazy(() => import("../../views/account/index"));
-const NotFoundPage = lazy(() => import("../../views/not-found/index"));
-const PortalPage = lazy(() => import("../../views/portal/index"));
+const AccountPage = lazy(() => import('../../views/account/index'));
+const NotFoundPage = lazy(() => import('../../views/not-found/index'));
+const PortalPage = lazy(() => import('../../views/portal/index'));
 
 // 路由表
 const routes: RouterConfigProps[]= [

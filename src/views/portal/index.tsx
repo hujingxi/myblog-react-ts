@@ -12,7 +12,7 @@ const Portal: React.FC = () => {
       <Button type="primary" onClick={() =>navigate('myblog/account')}>跳转到 account</Button>
     </div>
   );
-}
+};
 
 Portal.displayName = 'Portal';
 
